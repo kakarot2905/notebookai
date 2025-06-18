@@ -1,0 +1,80 @@
+=========================================
+Installing Server Dependencies
+=========================================
+
+up to date, audited 174 packages in 1s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Completed installing server dependencies.
+=========================================
+Installing Python Dependencies
+=========================================
+Requirement already satisfied: Flask in c:\python310\lib\site-packages (from -r requirements.txt (line 1)) (3.1.0)
+Requirement already satisfied: flask_pymongo in c:\python310\lib\site-packages (from -r requirements.txt (line 2)) (3.0.1)
+Requirement already satisfied: flask_cors in c:\python310\lib\site-packages (from -r requirements.txt (line 3)) (3.0.10)
+Requirement already satisfied: google-cloud-vision in c:\python310\lib\site-packages (from -r requirements.txt (line 4)) (3.9.0)
+Requirement already satisfied: google-api-core in c:\python310\lib\site-packages (from -r requirements.txt (line 5)) (2.24.1)
+Requirement already satisfied: openai in c:\python310\lib\site-packages (from -r requirements.txt (line 6)) (0.27.8)
+Requirement already satisfied: pymongo in c:\python310\lib\site-packages (from -r requirements.txt (line 7)) (4.5.0)
+Requirement already satisfied: Werkzeug>=3.1 in c:\python310\lib\site-packages (from Flask->-r requirements.txt (line 1)) (3.1.3)
+Requirement already satisfied: Jinja2>=3.1.2 in c:\python310\lib\site-packages (from Flask->-r requirements.txt (line 1)) (3.1.5)
+Requirement already satisfied: itsdangerous>=2.2 in c:\python310\lib\site-packages (from Flask->-r requirements.txt (line 1)) (2.2.0)
+Requirement already satisfied: click>=8.1.3 in c:\python310\lib\site-packages (from Flask->-r requirements.txt (line 1)) (8.1.8)
+Requirement already satisfied: blinker>=1.9 in c:\python310\lib\site-packages (from Flask->-r requirements.txt (line 1)) (1.9.0)
+Requirement already satisfied: Six in c:\python310\lib\site-packages (from flask_cors->-r requirements.txt (line 3)) (1.17.0)
+Requirement already satisfied: google-auth!=2.24.0,!=2.25.0,<3.0.0dev,>=2.14.1 in c:\python310\lib\site-packages (from google-cloud-vision->-r requirements.txt (line 4)) (2.38.0)
+Requirement already satisfied: proto-plus<2.0.0dev,>=1.22.3 in c:\python310\lib\site-packages (from google-cloud-vision->-r requirements.txt (line 4)) (1.26.0)
+Requirement already satisfied: protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<6.0.0dev,>=3.20.2 in c:\python310\lib\site-packages (from google-cloud-vision->-r requirements.txt (line 4)) (5.29.3)
+Requirement already satisfied: googleapis-common-protos<2.0.dev0,>=1.56.2 in c:\python310\lib\site-packages (from google-api-core->-r requirements.txt (line 5)) (1.66.0)
+Requirement already satisfied: requests<3.0.0.dev0,>=2.18.0 in c:\python310\lib\site-packages (from google-api-core->-r requirements.txt (line 5)) (2.32.3)
+Requirement already satisfied: tqdm in c:\python310\lib\site-packages (from openai->-r requirements.txt (line 6)) (4.67.1)
+Requirement already satisfied: aiohttp in c:\python310\lib\site-packages (from openai->-r requirements.txt (line 6)) (3.11.11)
+Requirement already satisfied: dnspython<3.0.0,>=1.16.0 in c:\python310\lib\site-packages (from pymongo->-r requirements.txt (line 7)) (2.7.0)
+Requirement already satisfied: colorama in c:\python310\lib\site-packages (from click>=8.1.3->Flask->-r requirements.txt (line 1)) (0.4.6)
+Requirement already satisfied: grpcio<2.0dev,>=1.33.2 in c:\python310\lib\site-packages (from google-api-core[grpc]!=2.0.*,!=2.1.*,!=2.10.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,<3.0.0dev,>=1.34.1->google-cloud-vision->-r requirements.txt (line 4)) (1.70.0)
+Requirement already satisfied: grpcio-status<2.0.dev0,>=1.33.2 in c:\python310\lib\site-packages (from google-api-core[grpc]!=2.0.*,!=2.1.*,!=2.10.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,<3.0.0dev,>=1.34.1->google-cloud-vision->-r requirements.txt (line 4)) (1.70.0)
+Requirement already satisfied: cachetools<6.0,>=2.0.0 in c:\python310\lib\site-packages (from google-auth!=2.24.0,!=2.25.0,<3.0.0dev,>=2.14.1->google-cloud-vision->-r requirements.txt (line 4)) (5.5.1)
+Requirement already satisfied: pyasn1-modules>=0.2.1 in c:\python310\lib\site-packages (from google-auth!=2.24.0,!=2.25.0,<3.0.0dev,>=2.14.1->google-cloud-vision->-r requirements.txt (line 4)) (0.4.1)
+Requirement already satisfied: rsa<5,>=3.1.4 in c:\python310\lib\site-packages (from google-auth!=2.24.0,!=2.25.0,<3.0.0dev,>=2.14.1->google-cloud-vision->-r requirements.txt (line 4)) (4.9)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\python310\lib\site-packages (from Jinja2>=3.1.2->Flask->-r requirements.txt (line 1)) (3.0.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\python310\lib\site-packages (from requests<3.0.0.dev0,>=2.18.0->google-api-core->-r requirements.txt (line 5)) (3.4.1)
+Requirement already satisfied: idna<4,>=2.5 in c:\python310\lib\site-packages (from requests<3.0.0.dev0,>=2.18.0->google-api-core->-r requirements.txt (line 5)) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\python310\lib\site-packages (from requests<3.0.0.dev0,>=2.18.0->google-api-core->-r requirements.txt (line 5)) (2.3.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\python310\lib\site-packages (from requests<3.0.0.dev0,>=2.18.0->google-api-core->-r requirements.txt (line 5)) (2024.12.14)
+Requirement already satisfied: aiohappyeyeballs>=2.3.0 in c:\python310\lib\site-packages (from aiohttp->openai->-r requirements.txt (line 6)) (2.4.4)
+Requirement already satisfied: aiosignal>=1.1.2 in c:\python310\lib\site-packages (from aiohttp->openai->-r requirements.txt (line 6)) (1.3.2)
+Requirement already satisfied: async-timeout<6.0,>=4.0 in c:\python310\lib\site-packages (from aiohttp->openai->-r requirements.txt (line 6)) (5.0.1)
+Requirement already satisfied: attrs>=17.3.0 in c:\python310\lib\site-packages (from aiohttp->openai->-r requirements.txt (line 6)) (24.3.0)
+Requirement already satisfied: frozenlist>=1.1.1 in c:\python310\lib\site-packages (from aiohttp->openai->-r requirements.txt (line 6)) (1.5.0)
+Requirement already satisfied: multidict<7.0,>=4.5 in c:\python310\lib\site-packages (from aiohttp->openai->-r requirements.txt (line 6)) (6.1.0)
+Requirement already satisfied: propcache>=0.2.0 in c:\python310\lib\site-packages (from aiohttp->openai->-r requirements.txt (line 6)) (0.2.1)
+Requirement already satisfied: yarl<2.0,>=1.17.0 in c:\python310\lib\site-packages (from aiohttp->openai->-r requirements.txt (line 6)) (1.18.3)
+Requirement already satisfied: typing-extensions>=4.1.0 in c:\python310\lib\site-packages (from multidict<7.0,>=4.5->aiohttp->openai->-r requirements.txt (line 6)) (4.12.2)
+Requirement already satisfied: pyasn1<0.7.0,>=0.4.6 in c:\python310\lib\site-packages (from pyasn1-modules>=0.2.1->google-auth!=2.24.0,!=2.25.0,<3.0.0dev,>=2.14.1->google-cloud-vision->-r requirements.txt (line 4)) (0.6.1)
+
+[notice] A new release of pip is available: 24.3.1 -> 25.0.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+Completed installing Python dependencies.
+=========================================
+Installing Frontend Dependencies
+=========================================
+
+added 271 packages, and audited 272 packages in 5s
+
+110 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Completed installing frontend dependencies.
+=========================================
+Starting the Server
+=========================================
+Press any key to continue . . . 
+
+C:\Users\sudha\Desktop\Myself\programing\git\Notebook-AI>'xit' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\sudha\Desktop\Myself\programing\git\Notebook-AI>

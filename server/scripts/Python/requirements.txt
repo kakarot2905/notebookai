@@ -1,0 +1,7 @@
+Flask
+flask_pymongo
+flask_cors
+google-cloud-vision
+google-api-core
+openai
+pymongo
