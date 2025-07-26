@@ -39,6 +39,9 @@ MONGO_URI=your_mongodb_uri
 PORT=5000
 GOOGLE_API_KEY=your_google_vision_api_key
 OPENAI_API_KEY=your_openai_api_key
+JWT_SECRET=your_secret_key
+VITE_SERVER = backend_route
+VITE_PYTHON = backend_ai_route
 ```
 
 ## 📡 API Endpoints
