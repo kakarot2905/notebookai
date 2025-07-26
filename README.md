@@ -2,6 +2,7 @@
 This project is deployed [here](https://notebook-ai-cp.vercel.app/)
 - Frontend on Vercel
 - Backend on Render
+  
 You may experience some delay in reponse since its deployed in free tier plans, please wait for 1-2 mins at inital usage.
 
 ## 📌 About
